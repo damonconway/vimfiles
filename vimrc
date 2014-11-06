@@ -7,9 +7,9 @@ if &t_Co >= 256 || has('gui_running')
 endif
 
 " Variables for template interpolation
-let email_address = "cmacleod@airdat.com"
-let fullname = "Chris MacLeod"
-let company_name = "Airdat LLC"
+let email_address = "damon.conway@alchemysystems.com"
+let fullname = "Damon Conway"
+let company_name = "Alchemy Systems"
 let template_date_format_string = "%a %b %d %Y"
 
 " pathogen is a plugin for managing plugins as bundles
