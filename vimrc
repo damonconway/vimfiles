@@ -14,8 +14,9 @@ let template_date_format_string = "%a %b %d %Y"
 
 " pathogen is a plugin for managing plugins as bundles
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()  " generate helptag documentation for any existing bundles
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()  " generate helptag documentation for any existing bundles
+execute pathogen#infect()
 
 " enable filetype and plugins
 filetype on
