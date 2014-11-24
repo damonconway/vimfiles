@@ -261,3 +261,8 @@ nmap <silent> <A-Up> :wincmd k<CR>
 nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silen> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
+
+"
+" Syntastic Options
+"
+let g:syntastic_puppet_puppetlint_args = "--no-80-chars-check --no-class_inherits_from_params_class-check"
